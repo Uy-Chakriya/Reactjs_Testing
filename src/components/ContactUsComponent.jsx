@@ -1,11 +1,15 @@
-import React from "react";
-
 export default function ContactUsComponent() {
   return (
-    <div className="bg-green-200 w-full max-h-full">
-      <h1 className="bg-yellow-400 items-center text-5xl font-extrabold">
-        This is contatct us page component
+    <div className="max-w-4xl mx-auto py-12 px-6 bg-white rounded-3xl shadow-sm border border-gray-100">
+      <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
+        Contact Us Page
       </h1>
+      <p className="text-lg text-gray-600 ">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deleniti
+        natus, soluta deserunt sapiente dolores amet iste architecto alias iusto
+        incidunt laborum quo veritatis nobis nostrum exercitationem? Eveniet,
+        voluptatibus doloremque.
+      </p>
     </div>
   );
 }

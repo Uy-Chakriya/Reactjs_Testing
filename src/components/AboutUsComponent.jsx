@@ -1,12 +1,15 @@
-import { NavLink } from "react-router-dom";
-import ChildComponent from "./ChildComponent";
-
 export default function AboutUsComponent() {
   return (
-    <div className="bg-amber-200 w-full max-h-full">
-      <div className="bg-pink-500 items-center text-5xl font-extrabold">
-        <p>This is AboutUsComponent Page</p>
-      </div>
+    <div className="max-w-4xl mx-auto py-12 px-6 bg-white rounded-3xl shadow-sm border border-gray-100">
+      <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
+        About Us Page
+      </h1>
+      <p className="text-lg text-gray-600 leading-relaxed">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deleniti
+        natus, soluta deserunt sapiente dolores amet iste architecto alias iusto
+        incidunt laborum quo veritatis nobis nostrum exercitationem? Eveniet,
+        voluptatibus doloremque.
+      </p>
     </div>
   );
 }
